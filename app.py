@@ -63,7 +63,6 @@ def main():
     # Sidebar
     st.sidebar.header("⚙️ System Info")
     st.sidebar.info(f"TensorFlow: {tf.__version__}")
-    st.sidebar.info(f"Keras: {tf.keras.__version__}")
 
     detection_type = st.sidebar.selectbox(
         "Detection Mode",
